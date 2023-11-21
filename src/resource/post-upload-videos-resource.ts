@@ -10,6 +10,7 @@ import path from "node:path";
 const pump = promisify(pipeline)
 
 export async function postUploadVideoResource(app: FastifyInstance){
+    console.log('IS ON UPLOAD')
     app.register(fastifyMultipart, {
         limits: {
             fileSize: 1048576 * 500 //500mb
@@ -57,7 +58,8 @@ export async function postUploadVideoResource(app: FastifyInstance){
        })
     
        return reply.send({
-        sucess: `Upload of video created with sucess by name ${video.name}`
+        success: `Upload of video created with success by name ${video.name}`,
+        video: video 
        })
     })
 }
