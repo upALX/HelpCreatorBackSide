@@ -11,6 +11,7 @@ This is a server side of help creator.
 ![typescript](https://img.shields.io/badge/-Typescript-05122A?style=flat&logo=typescript)&nbsp;
 ![Prisma](https://img.shields.io/badge/-Prisma-05122A?style=flat&logo=Prisma)&nbsp;
 ![OpenAI](https://img.shields.io/badge/-OpenAI-05122A?style=flat&logo=OpenAI)&nbsp;
+![DotEnv](https://img.shields.io/badge/-DotEnv-05122A?style=flat&logo=.env)&nbsp;
 
 ## How to use 🫁
 
