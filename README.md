@@ -15,6 +15,8 @@ This is a server side of help creator.
 
 ## How to use 🫁
 
+First, on dotenv file: put your api key from OpenAI on OPENAIKEY variable.
+
 1 - Clone this repo
 ```
 git clone git@github.com:upALX/HelpCreatorServerSide.git
