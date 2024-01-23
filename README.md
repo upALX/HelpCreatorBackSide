@@ -1,22 +1,35 @@
-# HelpCreatorBackSide
-This is a backend side of help creator.
+# Help Creator ServerSide
+This is a server side of help creator. 
 
-🛠️*This project is under development*🛠️
+🛠️*This project now is on MVP*🛠️
 
 ![giphy](https://github.com/upALX/All-Assets/blob/main/construction-little-girl.webp)
 
 ---
 
 ## Tech stack
-![python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
-![Flask](https://img.shields.io/badge/-Flask-05122A?style=flat&logo=Flask)&nbsp;
-![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-05122A?style=flat&logo=SQLAlchemy)&nbsp;
-![postgresql](https://img.shields.io/badge/-postgresql-05122A?style=flat&logo=postgresql)&nbsp;
-![docker](https://img.shields.io/badge/-Docker-05122A?style=flat&logo=docker)&nbsp;
+![typescript](https://img.shields.io/badge/-Typescript-05122A?style=flat&logo=typescript)&nbsp;
+![Prisma](https://img.shields.io/badge/-Prisma-05122A?style=flat&logo=Prisma)&nbsp;
+![OpenAI](https://img.shields.io/badge/-OpenAI-05122A?style=flat&logo=OpenAI)&nbsp;
+![DotEnv](https://img.shields.io/badge/-DotEnv-05122A?style=flat&logo=.env)&nbsp;
 
 ## How to use 🫁
 
-![giphy](https://github.com/upALX/All-Assets/blob/main/sla.webp)
+First, on dotenv file: put your api key from OpenAI on OPENAIKEY variable.
+
+1 - Clone this repo
+```
+git clone git@github.com:upALX/HelpCreatorServerSide.git
+```
+
+2 - On src, run this command:
+```
+pnpm i
+```
+3 - on src, run project:
+```
+pnpm run dev
+```
 
 ## Make your mark :triangular_flag_on_post:      
 
